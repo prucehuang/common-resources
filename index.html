@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app">life</div>
+  <script>
+    window.$docsify = {
+      name: '',
+      nameLink: 'https://bytesfly.github.io/blog/',
+      repo: 'NoteBook',
+      loadNavbar: true, // 导航栏 _navbar.md
+      loadSidebar: true, // 侧边栏 _sidebar.md
+      auto2top: true,  //当路线改变时,滚动到屏幕的顶部
+      mergeNavbar: true,//Navbar将在小屏幕上与侧边栏合并
+      externalLinkTarget: '_blank', //外链打开方式：_blank表示在新标签页中打开
+      //coverpage: true,
+      //onlyCover: true,
+      //topMargin: 60,//调整top
+      search: {
+        paths: 'auto',
+        placeholder: '🔍 搜索',
+        noData: '😒 找不到结果',
+        depth: 6,
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+      },//添加搜索框
+      footer: {
+        copy: '互联网是有记忆的，我想留下一些成长的脚印。 —— <a href="https://www.cnblogs.com/bytesfly/" target="_blank">字节飞扬</a><br/><br/>',
+        pre: '<hr/>',
+        style: 'text-align: left;',
+      }//添加页脚
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  
+  <!-- 代码高亮 -->
+  <script src="//unpkg.com/prismjs/components/prism-bash.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-sql.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-php.js"></script>
+</body>
+</html>
