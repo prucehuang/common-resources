@@ -1,2 +1,1 @@
-# quickly-start-python
-learn python demo
+# common resuources
